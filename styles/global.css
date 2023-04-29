@@ -6,14 +6,6 @@
   box-sizing: border-box;
 }
 
-a {
-  text-decoration: none;
-}
-
-ul li {
-  list-style: none;
-}
-
 :root {
   --dark-1: #111418;
   --dark-2: #212529;
@@ -24,4 +16,19 @@ ul li {
 
   --white-50: rgba(255, 255, 255, 0.5);
   --white-100: #fff;
+}
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+.app-content {
+  width: calc(100% - 260px);
+  margin-left: 260px;
 }
