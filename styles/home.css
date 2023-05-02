@@ -1,0 +1,57 @@
+#home {
+  width: 100%;
+  height: 100vh;
+  background-image: url("/images/bg-home.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlayer {
+  width: 100;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: relative;
+}
+.home-content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.home-text-title {
+  color: var(--white-100);
+  font-size: 4rem;
+}
+.home-text-subtitle {
+  color: var(--white-100);
+  margin-bottom: 1rem;
+}
+
+.home-btn {
+  background-color: transparent;
+  color: var(--green);
+  border: 2px solid var(--green);
+  padding: 15px 43px;
+  border-radius: 4rem;
+  cursor: pointer;
+}
+
+.chevron {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 3rem;
+  color: var(--white-100);
+  animation: upDown 0.8s infinite alternate;
+}
+
+@keyframes upDown {
+  to {
+    transform: translateY(0);
+  }
+  from {
+    transform: translateY(15px);
+  }
+}
