@@ -6,7 +6,9 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 :root {
   --dark-1: #111418;
   --dark-2: #212529;
@@ -35,6 +37,12 @@ img {
   margin-left: 260px;
 }
 
+.container {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
 /* style section*/
 
 .section-header h1 {
@@ -61,4 +69,11 @@ img {
   height: 3px;
   background-color: var(--green);
   margin: 0 auto;
+}
+
+.text-green {
+  color: var(--green);
+}
+.font-sbold {
+  font-weight: 500;
 }
