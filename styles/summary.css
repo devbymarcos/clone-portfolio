@@ -1,0 +1,35 @@
+.summary {
+  min-height: 100vh;
+  background-color: var(--dark-3);
+}
+.summary-grid {
+  margin-top: 8rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.summary-sub-title {
+  color: var(--white-100);
+  font-weight: 500;
+}
+
+.summary-card {
+  background-color: var(--dark-1);
+  padding: 1.5rem;
+  position: relative;
+  border-radius: 6px;
+}
+
+/*TODO REVER SELETOR*/
+.summary-card p {
+  margin-bottom: 1.5rem;
+}
+.summary-text-title {
+  color: var(--white-100);
+  margin-bottom: 1rem;
+}
+
+.summary-text-content {
+  color: var(--white-50);
+}

@@ -2,3 +2,39 @@
   min-height: 100vh;
   background-color: var(--dark-3);
 }
+
+.service-grid {
+  margin-top: 6rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+}
+.icon-box {
+  width: 70px;
+  height: 70px;
+  background-color: var(--dark-2);
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-box i {
+  color: var(--green);
+  font-size: 2rem;
+}
+
+.service-grid-item {
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  gap: 1rem;
+}
+.service-title {
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+  color: var(--white-100);
+}
+
+.service-content {
+  color: var(--white-50);
+  line-height: 1.8rem;
+}
