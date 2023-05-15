@@ -1,6 +1,7 @@
 .summary {
   min-height: 100vh;
   background-color: var(--dark-3);
+  padding: 2rem 0;
 }
 .summary-grid {
   margin-top: 8rem;
@@ -21,7 +22,6 @@
   border-radius: 6px;
 }
 
-/*TODO REVER SELETOR*/
 .summary-card p {
   margin-bottom: 1.5rem;
 }
@@ -32,4 +32,14 @@
 
 .summary-text-content {
   color: var(--white-50);
+}
+
+.summary-tag {
+  background-color: var(--green);
+  padding: 3px 10px;
+  margin-bottom: 0.7rem;
+  display: inline-block;
+  color: #fff;
+  border-radius: 7px;
+  font-size: 14px;
 }
