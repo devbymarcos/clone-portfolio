@@ -2,9 +2,10 @@
   width: 100%;
   min-height: 100vh;
   background-color: var(--dark-3);
+  padding-bottom: 4rem;
 }
 .portfolio-menu {
-  margin-top: 8rem;
+  margin: 8rem 0 2rem 0;
 }
 
 .portfolio-menu nav ul {
@@ -23,4 +24,15 @@
 .portfolio-menu nav ul li:hover {
   color: var(--green);
   border-bottom: 2px solid var(--green);
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.port-grid-item img {
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
 }
