@@ -46,7 +46,9 @@
   border-radius: 7px;
   font-size: 14px;
 }
-
+.skills {
+  margin-bottom: 4rem;
+}
 .skills-title {
   color: var(--white-100);
   font-weight: 500;
