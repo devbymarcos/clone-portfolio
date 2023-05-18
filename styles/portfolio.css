@@ -3,3 +3,24 @@
   min-height: 100vh;
   background-color: var(--dark-3);
 }
+.portfolio-menu {
+  margin-top: 8rem;
+}
+
+.portfolio-menu nav ul {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio-menu nav ul li {
+  color: var(--white-100);
+  border: 1px solid transparent;
+  cursor: pointer;
+  padding: 1rem;
+}
+.portfolio-menu nav ul li:hover {
+  color: var(--green);
+  border-bottom: 2px solid var(--green);
+}
