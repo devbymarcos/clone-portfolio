@@ -71,9 +71,14 @@ img {
   margin: 0 auto;
 }
 
+/*utilit*/
 .text-green {
   color: var(--green);
 }
 .font-sbold {
   font-weight: 500;
+}
+
+.pills {
+  border-radius: 999px;
 }
