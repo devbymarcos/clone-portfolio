@@ -3,3 +3,80 @@
   min-height: 80vh;
   background-color: var(--dark-2);
 }
+.slide-wrapper {
+  margin-top: 8rem;
+}
+.slide {
+  display: flex;
+  gap: 4rem;
+}
+.slide li {
+  padding: 2rem;
+  background-color: var(--dark-1);
+  border-radius: 6px;
+}
+
+.card-header {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+.card-avatar {
+  width: 67px;
+  height: 67px;
+  border: 1px solid #dee2e6;
+  border-radius: 9999px;
+  overflow: hidden;
+}
+.card-avatar-name p {
+  color: var(--white-100);
+}
+.card-avatar-name p:last-child {
+  color: var(--dark-text);
+}
+.card-text-content {
+  color: var(--white-100);
+  margin-bottom: 2rem;
+}
+
+.testimonial-card-stars i {
+  color: #ffc107;
+}
+
+.slide-control-dots {
+  margin-top: 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 0.4rem;
+}
+.slide-btn-dots {
+  width: 10px;
+  height: 10px;
+  background-color: var(--dark-1);
+  border: 1px solid transparent;
+  border-radius: 9999px;
+}
+
+.slide-btn-dots.active-dots {
+  border: 1px solid var(--green);
+  width: 20px;
+  height: 20px;
+  background-color: var(--dark-2);
+  margin-top: -5px;
+  position: relative;
+}
+.slide-btn-dots.active-dots::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: var(--green);
+  display: block;
+  border-radius: 9999px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -5px;
+  margin-top: -5px;
+}
