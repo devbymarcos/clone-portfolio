@@ -1,0 +1,103 @@
+.header {
+  position: fixed;
+  background-color: var(--dark-1);
+  width: 100%;
+  height: 65px;
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99999;
+}
+
+@media (max-width: 990px) {
+  .header {
+    display: flex;
+  }
+}
+
+.avatar-mobile-name a {
+  color: var(--white-100);
+  font-weight: 500;
+  font-size: 1.5rem;
+  padding: 0 0.5rem;
+}
+.header-icons {
+  display: flex;
+  gap: 2rem;
+  margin-left: auto;
+}
+.header-icons a i {
+  color: #aab1b8;
+}
+
+.btn-menu-mobile {
+  margin: 0 1rem;
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-bar {
+  --height: 3px;
+  --btn-mobile-color: #aab1b8;
+  position: relative;
+  display: block;
+}
+
+.btn-bar::before {
+  content: "";
+  width: 100%;
+  height: var(--height);
+  display: block;
+  background-color: var(--btn-mobile-color);
+  position: absolute;
+  border-radius: 999px;
+  top: -8px;
+  box-shadow: 0 8px 0 var(--btn-mobile-color);
+  transition: all 0.3s ease-in;
+}
+.btn-bar::after {
+  content: "";
+  width: 100%;
+  height: var(--height);
+  display: block;
+  background-color: var(--btn-mobile-color);
+  position: absolute;
+  border-radius: 999px;
+  top: 8px;
+  transition: all 0.3s ease-in;
+}
+
+.active-menu.btn-bar::after {
+  top: 0;
+  transform: rotate(45deg);
+}
+.active-menu.btn-bar::before {
+  top: 0;
+  transform: rotate(-45deg);
+  box-shadow: 0 0 0 var(--btn-mobile-color);
+}
+
+.nav-mobile {
+  width: 100%;
+  position: absolute;
+  top: 65px;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+}
+.active-nav.nav-mobile {
+  display: block;
+}
+
+.nav-mobile ul {
+  padding: 1rem;
+}
+.nav-mobile ul li a {
+  display: block;
+  padding: 0.5rem;
+  color: var(--white-100);
+  font-weight: 500;
+  border-bottom: 1px solid var(--dark-2);
+}

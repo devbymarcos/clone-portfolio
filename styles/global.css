@@ -37,6 +37,13 @@ img {
   margin-left: 260px;
 }
 
+@media (max-width: 990px) {
+  .app-content {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
 .container {
   width: 100%;
   max-width: 1240px;
