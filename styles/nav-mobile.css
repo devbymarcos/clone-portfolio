@@ -38,6 +38,12 @@
   height: 30px;
 }
 
+/*
+##################
+### btn-mobile ###
+##################
+*/
+
 .btn-bar {
   --min-height: 3px;
   --btn-mobile-color: #aab1b8;
