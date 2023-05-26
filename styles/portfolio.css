@@ -27,9 +27,9 @@
 }
 
 .portfolio-grid {
-  display: flex;
+  display: grid;
   gap: 1.5rem;
-  /* flex-wrap: wrap; */
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .port-grid-item img {
@@ -39,6 +39,6 @@
 
 @media (max-width: 480px) {
   .portfolio-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
