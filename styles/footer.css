@@ -1,6 +1,7 @@
 .footer {
   height: 175px;
   background-color: var(--dark-2);
+  padding: 2rem;
 }
 
 .footer-content {

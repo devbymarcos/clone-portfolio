@@ -2,7 +2,7 @@
   width: 100%;
   min-height: 100vh;
   background-color: var(--dark-3);
-  padding-bottom: 4rem;
+  padding: 0 2rem 4rem 2rem;
 }
 .portfolio-menu {
   margin: 8rem 0 2rem 0;
