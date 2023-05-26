@@ -1,0 +1,22 @@
+.footer {
+  height: 175px;
+  background-color: var(--dark-2);
+}
+
+.footer-content {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-links a {
+  color: var(--white-100);
+  margin-left: 1rem;
+}
+
+.footer-content span {
+  color: var(--green);
+}
+.footer-content p {
+  color: var(--white-100);
+}

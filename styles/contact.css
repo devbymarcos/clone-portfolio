@@ -3,3 +3,103 @@
   min-height: 100vh;
   background-color: var(--dark-3);
 }
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 312px 1fr;
+  gap: 1rem;
+  margin-top: 8rem;
+}
+.contact-grid-text h1 {
+  color: var(--white-100);
+  margin-bottom: 1rem;
+}
+
+.contact-grid-text p {
+  color: var(--white-100);
+  margin-bottom: 2.5rem;
+}
+
+.contact-email i,
+.contact-number-two i,
+.contact-number-one i {
+  color: var(--green);
+}
+.contact-email,
+.contact-number-two,
+.contact-number-one {
+  color: var(--white-100);
+  margin-bottom: 0.5rem;
+}
+
+.contact-redes p {
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-top: 2rem;
+}
+
+.contact-redes-icons {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.contact-redes-icons a i {
+  color: #aab1b8;
+}
+
+.contact-grid-form h2 {
+  text-transform: uppercase;
+  color: var(--white-100);
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+.input-flex {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.input-group {
+  width: 100%;
+}
+.input-group input {
+  width: 100%;
+  padding: 13px 16px;
+  border-radius: 8px;
+  background-color: #232a31;
+  border: none;
+  font-size: 1rem;
+  color: var(--white-100);
+}
+.input-group textarea {
+  width: 100%;
+  background-color: #232a31;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: var(--white-100);
+  padding: 13px 16px;
+}
+
+.input-group textarea:focus,
+.input-group input:focus {
+  outline: 1px solid orange;
+}
+
+.contact-btn-form {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.contact-btn-form button {
+  padding: 1rem 2.6rem;
+  background-color: var(--green);
+  color: #ffff;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 500;
+}
+.contact-btn-form button:hover {
+  background-color: var(--green-hover);
+}
