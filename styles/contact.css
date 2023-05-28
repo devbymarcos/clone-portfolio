@@ -2,6 +2,7 @@
   width: 100%;
   min-height: 100vh;
   background-color: var(--dark-3);
+  padding: 0 1rem;
 }
 
 .contact-grid {

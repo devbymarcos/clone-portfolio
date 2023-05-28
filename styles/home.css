@@ -35,6 +35,12 @@
   border: 2px solid var(--green);
   padding: 15px 43px;
   cursor: pointer;
+  transition: all 0.3s;
+  font-weight: 500;
+}
+.home-btn:hover {
+  background-color: var(--green);
+  color: var(--white-100);
 }
 
 .chevron {

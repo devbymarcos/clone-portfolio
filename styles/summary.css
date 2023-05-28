@@ -1,7 +1,7 @@
 .summary {
   min-height: 100vh;
   background-color: var(--dark-2);
-  padding: 2rem 0;
+  padding: 2rem 1rem;
 }
 .summary-grid {
   margin-top: 8rem;
@@ -119,4 +119,11 @@
   display: block;
   margin-inline: auto;
   margin-bottom: 4rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.skills-btn:hover {
+  background-color: var(--green);
+  color: var(--white-100);
 }
