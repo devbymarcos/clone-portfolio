@@ -67,3 +67,9 @@
 .about-grid-2-item p:last-child {
   color: var(--white-100);
 }
+
+@media (max-width: 650px) {
+  .about-grid-1 {
+    grid-template-columns: 1fr;
+  }
+}
