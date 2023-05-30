@@ -3,6 +3,7 @@
   min-height: 100vh;
   background-color: var(--dark-3);
   padding: 0 2rem 4rem 2rem;
+  scroll-margin-top: 65px;
 }
 .portfolio-menu {
   margin: 8rem 0 2rem 0;
@@ -39,6 +40,6 @@
 
 @media (max-width: 480px) {
   .portfolio-grid {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 1fr;
   }
 }

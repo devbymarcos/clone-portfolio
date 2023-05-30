@@ -3,6 +3,7 @@
   min-height: 80vh;
   background-color: var(--dark-2);
   padding: 0 1rem;
+  scroll-margin-top: 65px;
 }
 .slide-wrapper {
   margin-top: 8rem;

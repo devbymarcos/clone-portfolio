@@ -3,6 +3,7 @@
   min-height: 100vh;
   background-color: var(--dark-3);
   padding: 0 1rem 2rem 1rem;
+  scroll-margin-top: 65px;
 }
 
 .contact-grid {
