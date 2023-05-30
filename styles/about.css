@@ -73,3 +73,19 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media (max-width: 480px) {
+  .about-grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem 0;
+  }
+  .about-grid-2-item p:first-child {
+    font-size: 2rem;
+  }
+  .about-grid-2-item:nth-child(2) {
+    border: none;
+  }
+  .about-grid-1 {
+    margin-bottom: 4rem;
+  }
+}

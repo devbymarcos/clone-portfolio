@@ -60,3 +60,9 @@
     transform: translateY(15px);
   }
 }
+
+@media (max-width: 480px) {
+  .home-text-title {
+    font-size: 2.4rem;
+  }
+}

@@ -2,7 +2,7 @@
   width: 100%;
   min-height: 100vh;
   background-color: var(--dark-3);
-  padding: 0 1rem;
+  padding: 0 1rem 2rem 1rem;
 }
 
 .contact-grid {
@@ -103,4 +103,13 @@
 }
 .contact-btn-form button:hover {
   background-color: var(--green-hover);
+}
+
+@media (max-width: 650px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+  .contact-grid-text {
+    margin-bottom: 1.5rem;
+  }
 }
