@@ -27,12 +27,18 @@
 }
 
 .portfolio-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
   gap: 1.5rem;
+  /* flex-wrap: wrap; */
 }
 
 .port-grid-item img {
   border-radius: 8px;
   margin-bottom: 1.5rem;
+}
+
+@media (max-width: 480px) {
+  .portfolio-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
