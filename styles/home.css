@@ -52,6 +52,27 @@
   animation: upDown 0.8s infinite alternate;
 }
 
+.home-text-title {
+  display: inline-block;
+}
+
+.home-text-title::after {
+  content: "";
+  width: 30px;
+  height: 4px;
+  display: inline-block;
+  background-color: white;
+  margin-left: 10px;
+  animation: flasher 0.8s infinite linear;
+  opacity: 0;
+}
+
+@keyframes flasher {
+  from {
+    opacity: 1;
+  }
+}
+
 @keyframes upDown {
   to {
     transform: translateY(0);
@@ -63,6 +84,6 @@
 
 @media (max-width: 480px) {
   .home-text-title {
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
 }
