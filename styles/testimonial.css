@@ -5,13 +5,10 @@
   padding: 0 1rem;
   scroll-margin-top: 65px;
 }
-.slide-wrapper {
+.splide {
   margin-top: 8rem;
 }
-.slide {
-  display: flex;
-  gap: 4rem;
-}
+
 .slide li {
   padding: 2rem;
   background-color: var(--dark-1);
@@ -61,15 +58,18 @@
   border-radius: 9999px;
 }
 
-.slide-btn-dots.active-dots {
+.splide__pagination__page {
+  margin: 5px !important;
+  bottom: -4rem;
+}
+
+.splide__pagination__page.is-active {
   border: 1px solid var(--green);
   width: 20px;
   height: 20px;
-  background-color: var(--dark-2);
-  margin-top: -5px;
-  position: relative;
+  background-color: var(--dark-2) !important;
 }
-.slide-btn-dots.active-dots::before {
+.splide__pagination__page.is-active::before {
   content: "";
   width: 10px;
   height: 10px;

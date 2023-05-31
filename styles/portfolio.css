@@ -42,4 +42,7 @@
   .portfolio-grid {
     grid-template-columns: 1fr;
   }
+  .portfolio-menu nav ul {
+    gap: 0.1rem;
+  }
 }
