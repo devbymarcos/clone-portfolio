@@ -36,6 +36,7 @@
 .port-grid-item {
   position: relative;
   overflow: hidden;
+  transition: all 0.3s linear;
 }
 .port-grid-item img {
   width: 100%;
