@@ -26,11 +26,15 @@
   color: var(--green);
   border-bottom: 2px solid var(--green);
 }
-
+.container-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .portfolio-grid {
   display: grid;
   gap: 1.5rem;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 300px);
   grid-template-rows: repeat(8, 100px);
 }
 .port-grid-item {
