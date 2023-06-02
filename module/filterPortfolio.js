@@ -1,6 +1,7 @@
 export default function filterPortfolio() {
   const navPortfolio = document.querySelectorAll(".nav-portfolio li");
   const gridItem = document.querySelectorAll(".port-grid-item");
+  const gridContent = document.querySelector(".portfolio-grid");
 
   function filterPortfolio(e) {
     gridItem.forEach((elem) => {
@@ -9,14 +10,16 @@ export default function filterPortfolio() {
           elem.style.opacity = "0";
           setTimeout(() => {
             elem.style.display = "none";
-          }, 300);
+          }, 100);
         } else {
-          elem.style.display = "block";
           elem.style.opacity = "1";
+          setTimeout(() => {
+            elem.style.display = "block";
+          }, 200);
         }
       } else {
-        elem.style.display = "block";
         elem.style.opacity = "1";
+        elem.style.display = "block";
       }
     });
   }
